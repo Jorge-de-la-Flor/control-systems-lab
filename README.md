@@ -65,6 +65,12 @@ python src/pid_controller_sim.py
 
 Each script simulates system behaviour and prints the resulting control process in the console.
 
+## Example output
+
+![feedback control example](assets/feedback_control.png)
+![pid controller example](assets/pid_controller.png)
+![system response example](assets/step_response_simulation.png)
+
 ## Project tree
 
 ```bash
@@ -73,6 +79,10 @@ control-systems-lab
 ├─ LICENSE
 ├─ README.es.md
 ├─ README.md
+├─ assets
+│  ├─ feedback_control.png
+│  ├─ pid_controller.png
+│  └─ step_response_simulation.png
 ├─ pyproject.toml
 ├─ src
 │  ├─ feedback_control_demo.py
